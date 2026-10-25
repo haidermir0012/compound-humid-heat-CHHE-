@@ -1,0 +1,11 @@
+# Inferred from core analysis imports (conda env `mir` versions noted in ENVIRONMENT.yml).
+numpy>=1.26,<2
+xarray>=2023.12
+dask>=2024.1
+netCDF4>=1.6
+scipy>=1.10
+matplotlib>=3.7
+cartopy>=0.21
+tqdm>=4.65
+# Optional SI only:
+# cdsapi>=0.7

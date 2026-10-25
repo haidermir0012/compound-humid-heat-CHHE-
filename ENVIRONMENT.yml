@@ -1,0 +1,19 @@
+name: chhe-repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26.*
+  - xarray=2023.12.*
+  - dask=2024.*
+  - netCDF4=1.7.*
+  - scipy=1.15.*
+  - matplotlib=3.10.*
+  - cartopy=0.25.*
+  - tqdm=4.*
+  - pip
+  # Optional (ERA5 download / SI validation only — not required for core CHHE grids):
+  # - cdsapi
+  # Author's working environment on the analysis server was conda env `mir`
+  # with versions close to the pins above (numpy 1.26.4, xarray 2023.12.0,
+  # dask 2024.8.2, matplotlib 3.10.6, cartopy 0.25.0, scipy 1.15.2, netCDF4 1.7.2).
