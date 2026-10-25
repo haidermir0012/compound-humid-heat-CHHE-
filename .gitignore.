@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.nc
+*.nc4
+*.tif
+*.tiff
+.cdsapirc
+.env
+.DS_Store
+Thumbs.db
+processed_data_links/
